@@ -1,0 +1,206 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.CV {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  margin: auto;
+  max-width: 740px;
+  box-shadow: 0px 0px 55px 25px #cbcbcb;
+}
+
+.left-table {
+  background-color: #2b313d;
+  padding-top: 50px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.right-table {
+  background-color: #ffffff;
+  padding-top: 50px;
+  color: #000000;
+}
+
+.left-table img {
+  height: 120px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+
+.right-header {
+  height: 70px;
+  padding-left: 40px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.right-header-p {
+  height: 50px;
+  padding-left: 40px;
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.content {
+  width: 170px;
+  height: 200px;
+  margin-bottom: 30px;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  padding-left: 35px;
+}
+
+.right {
+  padding-left: 45px;
+}
+
+.right p {
+  width: 400px;
+}
+
+.line {
+  background-color: #ffffff;
+  height: 3px;
+  width: 40px;
+  margin: 15px 0px 17px 0px;
+  border-radius: 3px;
+}
+
+.content h2 {
+  margin: 0px;
+}
+
+.content p {
+  font-size: 13px;
+  margin-top: 0px;
+}
+
+#education {
+  height: 120px;
+}
+
+.languages {
+  display: flex;
+  flex-direction: column;
+}
+
+#language {
+  height: 120px;
+}
+
+.language {
+  display: flex;
+  height: 30px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.language-content {
+  width: 55px;
+  font-size: 13px;
+}
+
+.circles {
+  height: 15px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.gray {
+  background-color: #595f6b;
+}
+
+.black {
+  background-color: #000000;
+}
+
+#profile {
+  height: 130px;
+}
+
+.experience {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  font-size: 13px;
+}
+
+.experiences {
+  display: grid;
+  grid-template-columns: 300px;
+  gap: 8px;
+}
+
+.company {
+  width: 150px;
+}
+
+.company-value {
+  width: 250px;
+  margin-left: 20px;
+}
+
+#experience {
+  height: 330px;
+}
+
+.skills {
+  width: 400px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  gap: 8px 80px;
+}
+
+.skill {
+  width: 170px;
+  height: 25px;
+  display: flex;
+}
+
+.one {
+  background-color: #2b313d;
+}
+
+.skill-value {
+  width: 70px;
+  font-size: 13px;
+}
+
+.one-gray {
+  background-color: #d6d6d6;
+}
+
+.right .content {
+  width: 400px;
+}
+
+#skills {
+  height: 140px;
+}
